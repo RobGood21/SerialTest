@@ -5,7 +5,17 @@ VisualStudioVersion = 15.0.28307.1433
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerialTest", "SerialTest\SerialTest.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPI-1.0", "Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems", "{7B7E94E1-562C-4870-80BB-775C16F59EE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TFT-1.0.6", "Libraries\TFT\1.0.6\TFT\TFT-1.0.6.vcxitems", "{BF75A3C1-7FB6-4E6D-BD85-871DB47DC814}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{7b7e94e1-562c-4870-80bb-775c16f59ee1}*SharedItemsImports = 9
+		Libraries\TFT\1.0.6\TFT\TFT-1.0.6.vcxitems*{bf75a3c1-7fb6-4e6d-bd85-871db47dc814}*SharedItemsImports = 9
+		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\TFT\1.0.6\TFT\TFT-1.0.6.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
