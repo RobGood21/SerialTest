@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <None Include="SDcard.ino" />
     <None Include="src\arduino folders read me.txt">
       <Filter>Misc Files</Filter>
     </None>
-    <None Include="TFT_Test.ino" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.SerialTest.vsarduino.h">
+    <ClInclude Include="__vm\.SDcard.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

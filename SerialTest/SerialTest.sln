@@ -9,12 +9,24 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPI-1.0", "Libraries\SPI\1.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TFT-1.0.6", "Libraries\TFT\1.0.6\TFT\TFT-1.0.6.vcxitems", "{BF75A3C1-7FB6-4E6D-BD85-871DB47DC814}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85A8C5D9-D6A0-41BA-A5FC-F92962310120}"
+	ProjectSection(SolutionItems) = preProject
+		Beschrijving SerialTest.txt = Beschrijving SerialTest.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDcard", "SDcard\SDcard.vcxproj", "{16945267-4EF0-4DD6-84F8-708600176A50}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SD-1.2.4", "Libraries\SD\1.2.4\SD\SD-1.2.4.vcxitems", "{CFD06DDF-46B8-407C-AE63-8C93DFE12FEB}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\SD\1.2.4\SD\SD-1.2.4.vcxitems*{16945267-4ef0-4dd6-84f8-708600176a50}*SharedItemsImports = 4
 		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{7b7e94e1-562c-4870-80bb-775c16f59ee1}*SharedItemsImports = 9
 		Libraries\TFT\1.0.6\TFT\TFT-1.0.6.vcxitems*{bf75a3c1-7fb6-4e6d-bd85-871db47dc814}*SharedItemsImports = 9
+		Libraries\SD\1.2.4\SD\SD-1.2.4.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
 		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
 		Libraries\TFT\1.0.6\TFT\TFT-1.0.6.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SD\1.2.4\SD\SD-1.2.4.vcxitems*{cfd06ddf-46b8-407c-ae63-8c93dfe12feb}*SharedItemsImports = 9
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,6 +37,10 @@ Global
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{16945267-4EF0-4DD6-84F8-708600176A50}.Debug|x86.ActiveCfg = Debug|Win32
+		{16945267-4EF0-4DD6-84F8-708600176A50}.Debug|x86.Build.0 = Debug|Win32
+		{16945267-4EF0-4DD6-84F8-708600176A50}.Release|x86.ActiveCfg = Release|Win32
+		{16945267-4EF0-4DD6-84F8-708600176A50}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

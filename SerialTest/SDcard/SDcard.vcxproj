@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
-    <RootNamespace>SerialTest</RootNamespace>
-    <ProjectName>TFT_Test</ProjectName>
+    <ProjectGuid>{16945267-4EF0-4DD6-84F8-708600176A50}</ProjectGuid>
+    <RootNamespace>SDcard</RootNamespace>
+    <ProjectName>SDcard</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -57,8 +57,6 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="Shared">
-    <Import Project="..\Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems" Label="Shared" />
-    <Import Project="..\Libraries\TFT\1.0.6\TFT\TFT-1.0.6.vcxitems" Label="Shared" />
     <Import Project="..\Libraries\SD\1.2.4\SD\SD-1.2.4.vcxitems" Label="Shared" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -80,8 +78,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\SerialTest;$(ProjectDir)..\Libraries\TFT\1.0.6\TFT\src;$(ProjectDir)..\Libraries\SPI\1.0\SPI\src;$(ProjectDir)..\Libraries\SD\1.2.4\SD\src;$(ProjectDir)..\Libraries\SD\1.2.4\SD\src\utility;$(ProjectDir)..\Libraries\TFT\1.0.6\TFT\src\utility;C:\Program Files (x86)\arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\arduino\hardware\arduino\avr\variants\standard;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\\lib\gcc\avr\7.3.0\include;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\avr\include;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\\lib\gcc\avr\7.3.0\include;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\avr\include-fixed;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\avr\include\avr;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\lib\gcc\avr\4.9.2\include;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\lib\gcc\avr\4.9.2\include;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>$(ProjectDir)__vm\.SerialTest.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\SDcard;$(ProjectDir)..\Libraries\SD\1.2.4\SD\src;$(ProjectDir)..\Libraries\SPI\1.0\SPI\src;$(ProjectDir)..\Libraries\SD\1.2.4\SD\src\utility;C:\Program Files (x86)\arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\arduino\hardware\arduino\avr\variants\standard;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\\lib\gcc\avr\7.3.0\include;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\avr\include;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\\lib\gcc\avr\7.3.0\include;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\avr\include-fixed;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\avr\include\avr;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\lib\gcc\avr\4.9.2\include;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\lib\gcc\avr\4.9.2\include;C:\Users\gebruiker\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.SDcard.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_atmega328p__;__AVR_ATmega328P__;__AVR_ATmega328p__;F_CPU=16000000L;ARDUINO=108013;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -110,7 +108,7 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="TFT_Test.ino">
+    <None Include="SDcard.ino">
       <FileType>CppCode</FileType>
     </None>
   </ItemGroup>
@@ -119,14 +117,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.SerialTest.vsarduino.h" />
+    <ClInclude Include="__vm\.SDcard.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-  <ProjectExtensions>
-    <VisualStudio>
-      <UserProperties arduino.upload.port="COM35" />
-    </VisualStudio>
-  </ProjectExtensions>
 </Project>

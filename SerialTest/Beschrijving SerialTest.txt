@@ -1,0 +1,8 @@
+Beschrijving van de verschillende projecten in deze repos.
+Eerste stappen met een 1.8'' TFT scherm wisselmotor artikel #31518
+Gebruikt arduino build in Libraries SPI en TFT
+Pin8 > RESET 
+Pin10 > CS (Chip Select)
+PIN9 > AO (DC noemd de arduino reference deze pin)
+PIN13 SCK (serial clock0)
+PIN11 SDA (Serial Data)
