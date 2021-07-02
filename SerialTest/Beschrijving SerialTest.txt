@@ -6,3 +6,5 @@ Pin10 > CS (Chip Select)
 PIN9 > AO (DC noemd de arduino reference deze pin)
 PIN13 SCK (serial clock0)
 PIN11 SDA (Serial Data)
+
+sketch Serial P5_js 

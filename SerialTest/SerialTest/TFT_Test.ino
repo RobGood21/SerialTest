@@ -44,6 +44,7 @@ void setup() {
 		if (SD.begin(4)) {
 		//Serial.println(F("SD_OK"));
 	}
+
 	TFTscreen.background(0, 0, 0);
 	//pic = TFTscreen.loadImage("Davin.bmp");
 	//if (pic.isValid() == true) {
@@ -118,7 +119,9 @@ void SW_on(byte sw) {
 		break;
 
 	case 3: //links boven display
+		
 		pic = TFTscreen.loadImage("Davin.bmp");
+
 		TFTscreen.background(0, 0, 0);
 		TFTscreen.image(pic, 10, 10);
 		break;

@@ -18,7 +18,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDcard", "SDcard\SDcard.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SD-1.2.4", "Libraries\SD\1.2.4\SD\SD-1.2.4.vcxitems", "{CFD06DDF-46B8-407C-AE63-8C93DFE12FEB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TFT_Adafruit", "TFT_Adafruit\TFT_Adafruit.vcxproj", "{5A850341-C94E-4957-96A3-4194CEC204FB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Serial P5_js", "Serial P5_js\Serial P5_js.vcxproj", "{6E5F1646-03EF-4797-BF7F-CBE5E6FC8F0B}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -43,10 +43,10 @@ Global
 		{16945267-4EF0-4DD6-84F8-708600176A50}.Debug|x86.Build.0 = Debug|Win32
 		{16945267-4EF0-4DD6-84F8-708600176A50}.Release|x86.ActiveCfg = Release|Win32
 		{16945267-4EF0-4DD6-84F8-708600176A50}.Release|x86.Build.0 = Release|Win32
-		{5A850341-C94E-4957-96A3-4194CEC204FB}.Debug|x86.ActiveCfg = Debug|Win32
-		{5A850341-C94E-4957-96A3-4194CEC204FB}.Debug|x86.Build.0 = Debug|Win32
-		{5A850341-C94E-4957-96A3-4194CEC204FB}.Release|x86.ActiveCfg = Release|Win32
-		{5A850341-C94E-4957-96A3-4194CEC204FB}.Release|x86.Build.0 = Release|Win32
+		{6E5F1646-03EF-4797-BF7F-CBE5E6FC8F0B}.Debug|x86.ActiveCfg = Debug|Win32
+		{6E5F1646-03EF-4797-BF7F-CBE5E6FC8F0B}.Debug|x86.Build.0 = Debug|Win32
+		{6E5F1646-03EF-4797-BF7F-CBE5E6FC8F0B}.Release|x86.ActiveCfg = Release|Win32
+		{6E5F1646-03EF-4797-BF7F-CBE5E6FC8F0B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
