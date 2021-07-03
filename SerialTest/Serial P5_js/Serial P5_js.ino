@@ -1,3 +1,5 @@
+
+
 /*
  Name:		Serial_P5_js.ino
  Created:	7/2/2021 10:54:42 AM
@@ -17,11 +19,18 @@ TFT display = TFT(10, 9, 8); //cs pin10 chip select; dc pin9 data/command; reset
 //declarations
 unsigned long SW_time;
 byte SW_status = 0xFF;
+byte received;
+
+
 
 
 void setup() {
 	Serial.begin(9600);
-	SPI.begin(); //niet noodzakelijk, gebeurt ook in de library constructor
+	//SPI.begin(); //niet noodzakelijk, gebeurt ook in de library constructor
+	
+	
+	
+	
 	display.begin(); //constructor
 	//ports
 
@@ -31,11 +40,21 @@ void setup() {
 	display.setRotation(3); //1,2,3 draait het scherm
 	display.setTextSize(1); //formaat tekens
 	display.stroke(0xFFFFFF); //color omlijning blue-green-red (in hex mag ook)
-	display.text("Serial test met P5.js",0,0); //text en x,y linker bovenhoek
+	display.text("Serial test met P5.js",0,0); //text en x,y linker bovenhoek (F("")  werkt niet..?
 
 }
 
 void loop() {
+	//serial receive
+	if (Serial.available() > 0) {
+		// read the incoming byte:
+		 //received=Serial.read();
+		// say what you got:
+		 display.write(Serial.read());
+		 //display.print
+	}
+
+
 	if (millis() - SW_time > 20) {
 		SW_time = millis();
 		SW_exe();
@@ -64,13 +83,14 @@ void SW_exe() {
 }
 
 void SW_on(byte sw) {
-	Serial.print("SW-on "); Serial.println(sw);
+	//Serial.print("SW-on "); Serial.println(sw);
 	switch (sw) {
 	case 0:
+		Serial.println("123456789");
 		break;
 
 	case 1: //rechtsboven color=BGR
-
+		Serial.print("Hallo");
 		break;
 	case 2:
 		break;
@@ -81,5 +101,5 @@ void SW_on(byte sw) {
 }
 
 void SW_off(byte sw) {
-	Serial.print("SW-off "); Serial.println(sw);
+	//Serial.print("SW-off "); Serial.println(sw);
 }
