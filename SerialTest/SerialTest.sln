@@ -20,15 +20,33 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SD-1.2.4", "Libraries\SD\1.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Serial P5_js", "Serial P5_js\Serial P5_js.vcxproj", "{6E5F1646-03EF-4797-BF7F-CBE5E6FC8F0B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerialMonitorOLED", "SerialMonitorOLED\SerialMonitorOLED.vcxproj", "{C2690343-581F-4FEE-BF65-3149AAB3BCEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EEPROM-2.0", "Libraries\EEPROM\2.0\EEPROM\EEPROM-2.0.vcxitems", "{7C6E4BEA-5537-485D-AA88-2802F0309264}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wire-1.0", "Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems", "{4372981B-80B8-4309-9806-5934BD9AF12B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_SSD1306-2.1.0", "Libraries\Adafruit_SSD1306\2.1.0\Adafruit_SSD1306\Adafruit_SSD1306-2.1.0.vcxitems", "{FB03C8CD-F60B-41BB-AC6B-8FADB8859CA8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_GFX_Library-1.7.5", "Libraries\Adafruit_GFX_Library\1.7.5\Adafruit_GFX_Library\Adafruit_GFX_Library-1.7.5.vcxitems", "{3552B471-5503-493B-9A9F-546D2DF71186}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Libraries\SD\1.2.4\SD\SD-1.2.4.vcxitems*{16945267-4ef0-4dd6-84f8-708600176a50}*SharedItemsImports = 4
+		Libraries\Adafruit_GFX_Library\1.7.5\Adafruit_GFX_Library\Adafruit_GFX_Library-1.7.5.vcxitems*{3552b471-5503-493b-9a9f-546d2df71186}*SharedItemsImports = 9
+		Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems*{4372981b-80b8-4309-9806-5934bd9af12b}*SharedItemsImports = 9
 		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{7b7e94e1-562c-4870-80bb-775c16f59ee1}*SharedItemsImports = 9
+		Libraries\EEPROM\2.0\EEPROM\EEPROM-2.0.vcxitems*{7c6e4bea-5537-485d-aa88-2802f0309264}*SharedItemsImports = 9
 		Libraries\TFT\1.0.6\TFT\TFT-1.0.6.vcxitems*{bf75a3c1-7fb6-4e6d-bd85-871db47dc814}*SharedItemsImports = 9
+		Libraries\Adafruit_GFX_Library\1.7.5\Adafruit_GFX_Library\Adafruit_GFX_Library-1.7.5.vcxitems*{c2690343-581f-4fee-bf65-3149aab3bcea}*SharedItemsImports = 4
+		Libraries\Adafruit_SSD1306\2.1.0\Adafruit_SSD1306\Adafruit_SSD1306-2.1.0.vcxitems*{c2690343-581f-4fee-bf65-3149aab3bcea}*SharedItemsImports = 4
+		Libraries\EEPROM\2.0\EEPROM\EEPROM-2.0.vcxitems*{c2690343-581f-4fee-bf65-3149aab3bcea}*SharedItemsImports = 4
+		Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems*{c2690343-581f-4fee-bf65-3149aab3bcea}*SharedItemsImports = 4
 		Libraries\SD\1.2.4\SD\SD-1.2.4.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
 		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
 		Libraries\TFT\1.0.6\TFT\TFT-1.0.6.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
 		Libraries\SD\1.2.4\SD\SD-1.2.4.vcxitems*{cfd06ddf-46b8-407c-ae63-8c93dfe12feb}*SharedItemsImports = 9
+		Libraries\Adafruit_SSD1306\2.1.0\Adafruit_SSD1306\Adafruit_SSD1306-2.1.0.vcxitems*{fb03c8cd-f60b-41bb-ac6b-8fadb8859ca8}*SharedItemsImports = 9
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -47,6 +65,10 @@ Global
 		{6E5F1646-03EF-4797-BF7F-CBE5E6FC8F0B}.Debug|x86.Build.0 = Debug|Win32
 		{6E5F1646-03EF-4797-BF7F-CBE5E6FC8F0B}.Release|x86.ActiveCfg = Release|Win32
 		{6E5F1646-03EF-4797-BF7F-CBE5E6FC8F0B}.Release|x86.Build.0 = Release|Win32
+		{C2690343-581F-4FEE-BF65-3149AAB3BCEA}.Debug|x86.ActiveCfg = Debug|Win32
+		{C2690343-581F-4FEE-BF65-3149AAB3BCEA}.Debug|x86.Build.0 = Debug|Win32
+		{C2690343-581F-4FEE-BF65-3149AAB3BCEA}.Release|x86.ActiveCfg = Release|Win32
+		{C2690343-581F-4FEE-BF65-3149AAB3BCEA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
