@@ -30,6 +30,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_SSD1306-2.1.0", "L
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_GFX_Library-1.7.5", "Libraries\Adafruit_GFX_Library\1.7.5\Adafruit_GFX_Library\Adafruit_GFX_Library-1.7.5.vcxitems", "{3552B471-5503-493B-9A9F-546D2DF71186}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoTest", "ArduinoTest\ArduinoTest.vcxproj", "{8330885F-5242-4F2F-B3F8-3A71A1110CEA}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Libraries\SD\1.2.4\SD\SD-1.2.4.vcxitems*{16945267-4ef0-4dd6-84f8-708600176a50}*SharedItemsImports = 4
@@ -37,6 +39,7 @@ Global
 		Libraries\Wire\1.0\Wire\Wire-1.0.vcxitems*{4372981b-80b8-4309-9806-5934bd9af12b}*SharedItemsImports = 9
 		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{7b7e94e1-562c-4870-80bb-775c16f59ee1}*SharedItemsImports = 9
 		Libraries\EEPROM\2.0\EEPROM\EEPROM-2.0.vcxitems*{7c6e4bea-5537-485d-aa88-2802f0309264}*SharedItemsImports = 9
+		Libraries\EEPROM\2.0\EEPROM\EEPROM-2.0.vcxitems*{8330885f-5242-4f2f-b3f8-3a71a1110cea}*SharedItemsImports = 4
 		Libraries\TFT\1.0.6\TFT\TFT-1.0.6.vcxitems*{bf75a3c1-7fb6-4e6d-bd85-871db47dc814}*SharedItemsImports = 9
 		Libraries\Adafruit_GFX_Library\1.7.5\Adafruit_GFX_Library\Adafruit_GFX_Library-1.7.5.vcxitems*{c2690343-581f-4fee-bf65-3149aab3bcea}*SharedItemsImports = 4
 		Libraries\Adafruit_SSD1306\2.1.0\Adafruit_SSD1306\Adafruit_SSD1306-2.1.0.vcxitems*{c2690343-581f-4fee-bf65-3149aab3bcea}*SharedItemsImports = 4
@@ -69,6 +72,10 @@ Global
 		{C2690343-581F-4FEE-BF65-3149AAB3BCEA}.Debug|x86.Build.0 = Debug|Win32
 		{C2690343-581F-4FEE-BF65-3149AAB3BCEA}.Release|x86.ActiveCfg = Release|Win32
 		{C2690343-581F-4FEE-BF65-3149AAB3BCEA}.Release|x86.Build.0 = Release|Win32
+		{8330885F-5242-4F2F-B3F8-3A71A1110CEA}.Debug|x86.ActiveCfg = Debug|Win32
+		{8330885F-5242-4F2F-B3F8-3A71A1110CEA}.Debug|x86.Build.0 = Debug|Win32
+		{8330885F-5242-4F2F-B3F8-3A71A1110CEA}.Release|x86.ActiveCfg = Release|Win32
+		{8330885F-5242-4F2F-B3F8-3A71A1110CEA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
